@@ -43,3 +43,12 @@ The Agent will:
 
 [!] ACTION REQUIRED: 
 [>] GENERATING UNIFIED TRANSACTION PAYLOAD... [READY]
+```
+🛠️ Quick Start & Reproducibility
+```bash
+git clone [https://github.com/your-username/Lazarus-Agent.git](https://github.com/your-username/Lazarus-Agent.git)
+cd Lazarus-Agent
+cp config/.env.example config/.env
+# Insert your OKX Developer API keys in .env
+python main.py
+```
